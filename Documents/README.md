@@ -18,6 +18,7 @@ Before you start using the Eye Tracking script, ensure you have Python installed
 
 ```bash
 pip install opencv-python numpy pyautogui
+```
 
 Download the haarcascade_frontalface_default.xml and haarcascade_eye.xml Haar Cascade files from the OpenCV repository or any other source you trust. Place these files in the project directory.
 Usage
