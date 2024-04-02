@@ -21,21 +21,24 @@ pip install opencv-python numpy pyautogui
 ```
 
 Download the haarcascade_frontalface_default.xml and haarcascade_eye.xml Haar Cascade files from the OpenCV repository or any other source you trust. Place these files in the project directory.
-Usage
+
+## Usage
 To start the Eye Tracking script, execute the following command in your terminal:
 
-bash
-Copy code
+```bash
 python eye_tracking.py
+```
+
 Ensure your face is visible to the camera, and the script will begin tracking your eye movements to control the mouse cursor. The script displays a live feed from your camera with rectangles drawn around detected eyes.
 
 Press the 'Esc' key to exit the script.
 
-Customization
+## Customization
 The script includes a placeholder function, calculate_new_mouse_position, which you can modify to improve the accuracy of gaze direction to mouse position mapping. Advanced mapping techniques may require additional logic and calibration for effective use.
 
-Notes
+## Notes
 This script is a proof of concept and may require adjustments for optimal performance in different environments or lighting conditions.
 Eye tracking accuracy and responsiveness can vary based on the camera quality and the user's distance from the camera.
-License
+
+## License
 This project is open-sourced
